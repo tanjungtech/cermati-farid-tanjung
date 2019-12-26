@@ -1,0 +1,312 @@
+/*Default Settings*/
+
+body {
+	background: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.618;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+	margin: 0;
+	position: relative;
+}
+
+h3 {
+	font-size: 1.75em;
+	margin: 0 0 .5em;
+	font-weight: 400;
+}
+
+button {
+	padding: .5em 1.2em;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #fff;
+	font-size: .875em;
+	font-weight: 700;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+/*Layout Settings*/
+
+.flex {
+	display: flex;
+	position: relative;
+}
+
+.flex-wrapper {
+	flex-wrap: wrap;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: center
+}
+
+.justify-content-space-between {
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.mainpanel {
+	padding: 3em 0;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.half-bottom-margin {
+	margin-bottom: .5em;
+}
+
+.two-bottom-margin {
+	margin-bottom: 2em;
+}
+
+.shootout {
+	max-width: 640px;
+	padding: 10px;
+}
+
+input {
+	padding: .5em 1.2em;
+	width: calc(100% - 2.5em);
+	font-size: .875em;
+	border: 1px solid #e0e0e0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+	outline: none;
+}
+
+.fullblock {
+	width: 100%;
+}
+
+/*Background Settings*/
+
+.blue-bg {
+	background: #007bc1;
+}
+
+.orange-bg {
+	background: #ff8000;
+}
+
+.smoke-grey-bg {
+	background: #e5e5e5;
+}
+
+/*General Layout Template*/
+
+.app-header {
+	min-height: 620px;
+	min-height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/*Notification Panel Layout Template*/
+.notification-panel {
+	padding: .5em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: calc(100% - 1em);
+	z-index: 33;
+	border: 1px solid blue;
+	line-height: 1.325;
+}
+
+.notif-wrapper {
+	max-width: 720px;
+	margin: 0 auto;
+	font-size: .875em;
+}
+
+button.notif-action {
+	font-size: 1em;
+	margin: .5em 0;
+}
+
+.notif-text {
+	float: left;
+	max-width: 640px;
+}
+
+/*Hero Shot Layout Template*/
+
+.heroshot-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #004a75bd;
+	right: 0;
+	padding: 2em;
+	color: #fff;
+	height: calc(100vh - 4em);
+}
+
+.y-logo-white {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height: 30px;
+	padding: 1.5em;
+}
+
+.y-text-white {
+	color: #fff;
+	text-align: center;
+    margin: 0 auto;
+}
+
+button.overlay-action {
+	padding: 1em 1.75em;
+	border: 2px solid #fff;
+	background: transparent;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 1.5em;
+	line-height: 1.375;
+	border-radius: 3px;
+	&:hover {
+		background: #fff;
+		color: #004a75;
+	}
+}
+
+.name-type-one {
+	font-size: 2em;
+	line-height: 1.375;
+}
+
+.attr-type-one {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.375;
+}
+
+/*Highlights Panel Template Editor*/
+
+.highlights-subsect {
+	border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    font-size: .875em;
+    box-shadow: inset 0 0 2px #fff;
+}
+
+.title-highlights-subject {
+	font-size: 1.5em;
+}
+
+/* Newsletter Panel Template Editor*/
+
+.newsletter-panel {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	max-width: 640px;
+	font-size: .875em;
+	background: #007bc1bd;
+}
+
+.np-wrapper {
+	padding: 1em;
+	color: #fff;
+}
+
+.close-newsletter {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+button.closebtn-newsletter {
+	background: transparent;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.newsletter-button {
+	border: 1px solid #ff8000;
+	margin-left: 0;
+	margin-top: .5em;
+	width: 100%;
+}
+
+#newsletter-post {
+	margin-top: 1em;
+	width: 100%;
+}
+
+/*Footer Template Editor*/
+.footer-capp {
+	font-size: .875em;
+	color: #e0e0e0bd;
+	padding: 2em;
+	background: #032f48;
+}
+
+/*Interaction Editor*/
+.hide-bottom {
+	bottom: -100%;
+}
+
+.newsletter-panel {
+	transition: all .5s linear .2s;
+	-webkit-transition: all .5s linear .2s;
+}
+
+.app-header, .notification-panel {
+	transition: all .2s linear .1s;
+	-webkit-transition: all .2s linear .1s;	
+}
+
+
+/* 960px and below */
+
+@media only screen and (min-width: 480px) {
+	body {
+		font-size: 15px;
+	}
+	.col-md-4, .col-md-8, .col-xs-6 {
+		width: 100%;
+	}
+	.col-xs-6 {
+		flex-basis: 50%;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	body {
+		font-size: 18px;
+	}
+	.col-md-4 {
+		flex-basis: 33.33333%;
+	}
+	.col-md-8 {
+		flex-basis: 66.66666%;
+	}
+	.newsletter-button {
+		margin-top: 0;
+		margin-left: .5em;
+		width: calc(100% - .75em);
+	}
+}
